@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.unmerge/unmerge",
+  "title": "Unmerge",
+  "description": "Split a flat image into separate transparent PNG layers. Pay with Unmerge credits.",
+  "version": "1.0.0",
+  "websiteUrl": "https://unmerge.app/docs/mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://unmerge.app/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your key>. Create a key at https://unmerge.app/account/api",
+          "value": "Bearer {api_key}",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
