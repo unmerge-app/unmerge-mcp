@@ -46,7 +46,7 @@ bearer_token_env_var = "UNMERGE_API_KEY"
 
 | Tool | What it does | Cost |
 | --- | --- | --- |
-| `split_into_layers` | Split a PNG, JPG or WebP (https URL or base64) into named layers. Optional `prompt` says what to separate. Waits up to 50 seconds. | 1 credit per layer returned, at most 17; needs 5 credits to start |
+| `split_into_layers` | Split a PNG, JPG or WebP (https URL or base64) into named layers. Optional `prompt` says what to separate (and raises the cap from 17 up to 100 layers when naming more parts or layers). Waits up to 50 seconds. | 1 credit per layer returned (up to 17 by default, up to 100 when prompted); needs 5 credits to start |
 | `get_layers` | Status of a split; when ready, each layer's name, position and a PNG link valid for one hour | Free |
 | `unlock_layers` | For status `needs_credits`: pay the credits owed so the files become available | The credits owed, once |
 | `get_credits` | Credits left on the account | Free |

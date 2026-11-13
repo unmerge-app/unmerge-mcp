@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "app.unmerge/unmerge",
   "title": "Unmerge",
-  "description": "Split a flat image into separate transparent PNG layers. Pay with Unmerge credits.",
-  "version": "1.0.0",
+  "description": "Split a flat image into up to 100 transparent PNG layers. Pay with Unmerge credits.",
+  "version": "1.0.1",
   "websiteUrl": "https://unmerge.app/docs/mcp",
   "remotes": [
     {
