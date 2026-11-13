@@ -67,6 +67,15 @@ npx skills add unmerge-app/unmerge-mcp
 
 or copy the folder into your agent's skills directory (for Claude Code, `~/.claude/skills/unmerge/`). It uses the MCP tools when they are connected and the HTTP API with `curl` otherwise.
 
+
+### One-line prompt for any AI agent
+
+Paste into Claude Code, Cursor, Codex, or Gemini CLI:
+
+```text
+Read https://raw.githubusercontent.com/unmerge-app/unmerge-mcp/main/skills/unmerge/SKILL.md and split my image into transparent PNG layers.
+```
+
 ## Support
 
 support@unmerge.app

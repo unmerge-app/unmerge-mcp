@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "unmerge": {
+      "type": "http",
+      "url": "https://unmerge.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${UNMERGE_API_KEY}"
+      }
+    }
+  }
+}

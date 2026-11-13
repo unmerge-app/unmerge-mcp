@@ -1,0 +1,14 @@
+{
+  "name": "unmerge-mcp",
+  "version": "1.0.1",
+  "description": "Split a flat image into up to 100 transparent PNG layers. Pay with Unmerge credits.",
+  "mcpServers": {
+    "unmerge": {
+      "type": "http",
+      "url": "https://unmerge.app/mcp",
+      "headers": {
+        "Authorization": "Bearer ${UNMERGE_API_KEY}"
+      }
+    }
+  }
+}
